@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #0b1a1e;
+  --color-softGrey: #deddcc;
+  --color-lighterGreen: #6cd26c;
+  --color-secondary: #ed9051;
+  --color-darkerGreen: #239541;
+
+  --font-sans: "Raleway", sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-8;
+  }
+
+  h1 {
+    @apply font-light text-[2.5rem] md:text-[5.5rem] leading-[125%] md:leading-[144%];
+  }
+
+  h2 {
+    @apply text-[2rem] md:text-5xl leading-[125%];
+  }
+
+  h3 {
+    @apply font-light text-xl md:text-[2rem] leading-[125%];
+  }
+
+  h4 {
+    @apply font-semibold uppercase text-sm md:text-lg leading-[133%] tracking-wide;
+  }
+
+  p {
+    @apply md:text-xl leading-[142%] md:leading-[144%];
+  }
+
+  small {
+    @apply text-base;
+  }
+
+  button,
+  .btn {
+    @apply font-semibold text-sm tracking-wider;
+  }
+
+  .label {
+    @apply font-semibold text-xs md:text-sm tracking-wider uppercase;
+  }
+}
