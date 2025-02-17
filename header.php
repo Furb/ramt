@@ -17,10 +17,18 @@
     <div class="flex justify-between items-center py-6">
         <a href="#" class="w-24"><img src="/wp-content/uploads/2025/02/logo_green.svg" alt="Tegnestuen RAMT" class="min-h-[2.5rem]"></a>
 
-        <nav class="hidden md:flex space-x-8">
-        <a href="#" class="btn px-12 py-3 bg-lighterGreen text-white rounded-full hover:bg-white hover:text-dark">Projekter</a>
-        <a href="#" class="btn px-12 py-3 bg-lighterGreen text-white rounded-full hover:bg-white hover:text-dark">Profil</a>
-</nav>
+    <?php
+    wp_nav_menu(
+        array(
+            'theme_location' => 'main-menu',
+            'container'      => 'false', 
+            'menu_class'     => 'main_nav flex space-x-8', 
+            'link_before'    => '<span class="btn px-12 py-3 bg-lighterGreen text-white rounded-full hover:bg-white hover:text-dark">', 
+            'link_after'     => '</span>',
+        )
+    );
+    ?>
     </div>
     </div>
 </header>
+
