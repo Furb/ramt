@@ -9,7 +9,7 @@ Template part for projekter
 
 
 <section id="projekter" class="py-8 md:py-24 scroll-mt-12 px-8">
-    <h2 class="col-span-full">Projekter</h2>
+    <h2 class="container col-span-full">Projekter</h2>
 
 <?php 
     $projekter = new WP_Query(

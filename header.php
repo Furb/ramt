@@ -22,7 +22,7 @@
         array(
             'theme_location' => 'main-menu',
             'container'      => 'false', 
-            'menu_class'     => 'main_nav flex space-x-8 hidden md:block', 
+            'menu_class'     => 'main_nav space-x-8 hidden md:flex', 
             'link_before'    => '<span class="btn px-12 py-3 bg-lighterGreen text-white rounded-full hover:bg-white hover:text-dark">', 
             'link_after'     => '</span>',
         )

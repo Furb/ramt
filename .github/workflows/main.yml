@@ -14,4 +14,4 @@ jobs:
           server: linux16.unoeuro.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /public_html/wp-content/themes/RAMT/
+          server-dir: /public_html/wp-content/themes/ramt/
