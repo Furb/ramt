@@ -33,7 +33,7 @@
 
 
 <!-- Lower Section --> 
-<div class="absolute bottom-72 left-96 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
+<div class="hidden md:flex absolute bottom-72 left-96 items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
   <div class="w-4 h-4 bg-secondary rounded-full"></div>
 </div>
 <div class="absolute bottom-56 right-[15%] flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
