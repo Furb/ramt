@@ -56,19 +56,16 @@ rådgivning i alle byggeriets faser. </h2>
     </div>
 </section>
 <section id="medarbejdere" class="pb-24">
-    <div class="container">
-        
-        
-  
+    <div class="container mx-auto">
     <div class="grid grid-cols-12 gap-x-8 gap-y-48 md:gap-16">
-        <div class="col-span-full sm:col-span-6">
+        <div class="col-span-11 sm:col-span-6">
             <img src="/wp-content/uploads/2025/02/sorentheodor2-768x512.jpg" alt="medarbejder" class="rounded-xl mb-4">
             <p class="label">Søren Theodor Vedsted</p>
           <small class="block">Indehaver & bygningskonstruktør</small>
           <small class="block"><a href="mailto:theodor@ramt.dk">theodor@ramt.dk</a></small>
           <small class="block">Tlf: 60 13 14 18</small>
         </div>
-        <div class="col-span-full sm:col-span-6 -mt-24">
+        <div class="col-span-11 sm:col-span-6 sm:col-span-6 -mt-24">
             <img src="/wp-content/uploads/2025/02/anna-768x512.jpg" alt="medarbejder" class="rounded-xl mb-4">
             <p class="label">Anna Baumann</p>
             <small class="block">Bygningskonstruktør MAK</small>
