@@ -23,27 +23,27 @@ rådgivning i alle byggeriets faser. </h2>
 
 <section id="profil" class="py-24">
     <div class="grid grid-cols-12 container">
-        <h2 class="col-span-full md:col-span-7">God byggeledelse kræver overblik, koordinering og indsigt – især når arkitekturen er i fokus.</h2>
+        
         <div id="left__side" class="col-span-full md:col-start-2 md:col-span-5">
             
 
-        <div class="text__box mb-24">
+        <div class="text__box mb-16">
                 <p>Tegnestuen RAMT blev stiftet i marts 2024 af Søren Theodor Vedsted, stifter og indehaver, som har en årelang erfaring erfaring fra arkitektbranchen.</p>
             </div>
           
             
-            <div class="text__box mb-24">
-                <h3 class="mb-8">Bæredygtigt og kreativt design</h3>
+            <div class="text__box mb-16">
+                
                 <p>RAMT er en kreativ tegnestue, der fokuserer på klodens ressourcer – et vigtigt designparameter i alle opgaver, der skal løses. Vi arbejder med en bred vifte af projekter – fra offentlige byggerier til transformation og restaurering – altid med fokus på at integrere funktionalitet og æstetik.</p>
             </div>
 
-            <div class="text__box mb-24">
-                <h3 class="mb-8">Rådgivning, der giver mening – hele vejen igennem</h3>
+            <div class="text__box mb-16">
+                
                 <p>Vi yder professionel rådgivning og sikrer altid helhedsorienterede løsninger, der skaber kvalitet i byggeprocessen. Vi står nemlig altid ved siden af vores kunder og samarbejdspartnere med en fokuseret projekterings- og byggeledelse, der sikrer effektiv koordinering og styring af projekter fra idé til færdiggørelse.</p>
             </div>
 
-            <div class="text__box mb-24">
-                <h3 class="mb-8">De bedste resultater skabes af eksperterne</h3>
+            <div class="text__box mb-16">
+       
                 <p>RAMT varetager alle byggeriets faser i tæt samarbejde med specialiserede faggrupper. Sådan levere de bedste og mest gennemarbejdede løsninger.
 
 </p>
@@ -57,7 +57,7 @@ rådgivning i alle byggeriets faser. </h2>
 </section>
 <section id="medarbejdere" class="pb-24">
     <div class="container">
-        <h2>Vi er RAMT <br>– og vi mener det</h2>
+        
         
   
     <div class="grid grid-cols-12 gap-x-8 gap-y-48 md:gap-16">

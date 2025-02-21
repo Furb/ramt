@@ -8,8 +8,8 @@ Template part for projekter
 
 
 
-<section id="projekter" class="py-24 scroll-mt-24">
-    <h2 class="container col-span-full">Projekter</h2>
+<section id="projekter" class="py-8 md:py-24 scroll-mt-12 px-8">
+    <h2 class="col-span-full">Projekter</h2>
 
 <?php 
     $projekter = new WP_Query(
@@ -26,23 +26,23 @@ Template part for projekter
 
     ?>
     
-    <div class="projekt mb-56">
+    <div class="projekt mb-24 md:mb-56">
     <div class="grid grid-cols-12 gap-8 mb-8">
         
      
-        <div class="left col-span-6 md:col-span-3 md:col-start-2">
+        <div class="left col-span-full sm:col-span-6 md:col-span-3 md:col-start-2">
             <hr class="border-softGrey py-4">
             <h3 class="pb-8"><?php echo esc_html($projekt_info['projekt_overskrift']); ?></h3>
 
             <div class="grid grid-rows-auto space-y-4 small">
-                <div class="flex gap-4"><div>Rolle</div><div class="font-bold"><?php echo esc_html($projekt_info['rolle']); ?></div></div>
+                <div class="flex flex-col md:flex-row md:gap-4"><div>Rolle</div><div class="font-bold"><?php echo esc_html($projekt_info['rolle']); ?></div></div>
                 
-                <div class="flex gap-4"><div>Ca. m²</div><div class="font-bold"><?php echo esc_html($projekt_info['m2']); ?></div></div>
-                <div class="flex gap-4"><div>Årstal</div><div class="font-bold"><?php echo esc_html($projekt_info['aarstal']); ?></div></div>
-                <div class="flex gap-4"><div>Kunde</div><div class="font-bold"><?php echo esc_html($projekt_info['kunde']); ?></div></div>
+                <div class="flex flex-col md:flex-row md:gap-4"><div>Ca. m²</div><div class="font-bold"><?php echo esc_html($projekt_info['m2']); ?></div></div>
+                <div class="flex flex-col md:flex-row md:gap-4"><div>Årstal</div><div class="font-bold"><?php echo esc_html($projekt_info['aarstal']); ?></div></div>
+                <div class="flex flex-col md:flex-row md:gap-4"><div>Kunde</div><div class="font-bold"><?php echo esc_html($projekt_info['kunde']); ?></div></div>
 
 <?php if (have_rows('projekt_info_samarbejdspartner')) : ?>
-    <div class="flex gap-4">
+    <div class="flex flex-col md:flex-row md:gap-4">
         <div>Samarbejdspartnere</div>
         <div class="font-bold">
             <?php 
