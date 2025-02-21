@@ -63,7 +63,7 @@ Template part for projekter
 <?php endif; ?>
 
 
-                <div class="flex gap-4"><div>Enterprise</div><div class="font-bold"><?php echo esc_html($projekt_info['entreprise']); ?></div></div>
+                <div class="flex flex-col md:flex-row md:gap-4"><div>Enterprise</div><div class="font-bold"><?php echo esc_html($projekt_info['entreprise']); ?></div></div>
             </div>
         </div>
 
