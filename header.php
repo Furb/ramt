@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all">
 </head>
-<body class="color-dark font-sans relative">
+<body class="color-dark font-sans relative overflow-x-hidden">
 
 
 <header class="fixed top-0 z-50 bg-dark w-screen">

@@ -33,8 +33,28 @@ if (!function_exists('base_setup')) {
 add_action('after_setup_theme', 'base_setup');
 
 
+
 /* ==========================================================================
-Add google fonts
+Temaets JS
+========================================================================== */
+
+
+function custom_scripts() {
+    wp_enqueue_script(
+        'custom-js',  
+        get_template_directory_uri() . '/scripts.js', 
+        NULL, 
+        1.0, 
+        true 
+    );
+}
+
+// Ensure function is declared before adding the action
+add_action('wp_enqueue_scripts', 'custom_scripts');
+
+
+/* ==========================================================================
+Add google fonts + material icons
 ========================================================================== */
 
 function custom_fonts() {
@@ -44,9 +64,16 @@ function custom_fonts() {
         array(), 
         null
     );
+
+    wp_enqueue_style(
+        'materialSymbols', 
+        'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700', 
+        array(), 
+        null
+    );
 }
 
-add_action('wp_enqueue_scripts', 'custom_fonts')
+add_action('wp_enqueue_scripts', 'custom_fonts');
 
 
 

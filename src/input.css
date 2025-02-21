@@ -20,11 +20,11 @@
   }
 
   h2 {
-    @apply text-[2rem] md:text-5xl leading-[125%];
+    @apply font-light text-[2rem] md:text-5xl leading-[125%] mb-32 md:mb-56;
   }
 
   h3 {
-    @apply font-light text-xl md:text-[2rem] leading-[125%];
+    @apply font-light text-xl md:text-[1.5rem] leading-[125%];
   }
 
   h4 {
