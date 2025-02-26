@@ -11,11 +11,11 @@ Template Name: Profil
 <?php get_template_part('components/profil-dots') ?>
 
 
-<div id="hero" class="bg-dark pt-72 pb-24 text-white mb-24">
-    <div class="md:grid grid-cols-12 container mx-auto md:h-[75svh]">
-    <h2 class="col-span-full md:col-span-7 z-40">Tegnestue I tætte samarbejder med specialiserede faggrupper der  tilbyder 
+<div id="hero" class="bg-dark pt-72 pb-[5%] text-white">
+    <div class="md:grid grid-cols-3 container mx-auto">
+    <h2 class="col-span-full md:col-span-2 z-40">Tegnestue I tætte samarbejder med specialiserede faggrupper der  tilbyder 
 rådgivning i alle byggeriets faser. </h2>
-    <div class="hidden md:flex hero__logo col-start-6 col-span-6 self-end"><img src="/wp-content/uploads/2025/02/logo_green.svg" alt="Tegnestuen ramt logo"></div>
+    <div class="hidden md:flex justify-end hero__logo col-span-full md:col-span-2 md:col-start-2 "><img src="/wp-content/uploads/2025/02/logo_green.svg" alt="Tegnestuen ramt logo" class="max-w-[38rem]"></div>
 </div>
 </div>
 
