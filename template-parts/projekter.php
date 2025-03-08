@@ -37,7 +37,6 @@ Template part for projekter
 
             <div class="grid grid-rows-auto space-y-4 small">
                 <div><p class="text-[0.875rem]">Rolle</p><div class="font-bold"><?php echo esc_html($projekt_info['rolle']); ?></div></div>
-                
                 <div><p class="text-[0.875rem]">Ca. m²</p><div class="font-bold"><?php echo esc_html($projekt_info['m2']); ?></div></div>
                 <div><p class="text-[0.875rem]">Årstal</p><div class="font-bold"><?php echo esc_html($projekt_info['aarstal']); ?></div></div>
                 <div><p class="text-[0.875rem]">Kunde</p><div class="font-bold"><?php echo esc_html($projekt_info['kunde']); ?></div></div>
@@ -96,7 +95,7 @@ Template part for projekter
 
 
    
-    <div class="columns-1 sm:columns-2 2xl:columns-3 gap-4>
+    <div class="columns-1 sm:columns-2 2xl:columns-3 gap-4">
         <?php 
         $billeder = get_field('projekt_billeder'); 
 
