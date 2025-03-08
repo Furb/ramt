@@ -26,7 +26,7 @@
   <div class="w-4 h-4 bg-secondary rounded-full"></div>
 </div>
 
-<div class="absolute top-3/4 left-1/2 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
+<div class="absolute top-3/4 max-sm:m-24 left-1/2 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
   <div class="w-4 h-4 bg-secondary rounded-full"></div>
 </div>
 

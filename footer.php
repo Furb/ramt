@@ -13,7 +13,7 @@
     <hr class="my-12 sm:my-4">
     <div id="footer__bottom" class="grid grid-cols-12">
         <div class="xl:col-start-8 col-span-full flex flex-col sm:flex-row justify-between space-y-8 text-center">
-            <p><small>Coockies</small></p>
+        
             <p><small>cvr nr: 44669684</small></p>
             <p><small>&copy; 2024 - 2025 Tegnestuen RAMT</small></p>
         </div>
