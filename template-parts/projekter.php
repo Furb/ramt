@@ -27,7 +27,7 @@ Template part for projekter
 
     ?>
     
-    <div class="projekt mb-24 md:mb-56">
+    <article class="projekt mb-24 md:mb-56">
     <div class="grid grid-cols-12 gap-8 mb-8">
         
      
@@ -104,7 +104,7 @@ Template part for projekter
                 $billede_url = esc_url($billede['url']);
                 $billede_alt = esc_attr($billede['alt']);
         ?>
-                <img src="<?php echo $billede_url; ?>" alt="<?php echo $billede_alt; ?>" class="mb-4 break-inside-avoid rounded-xl">
+                <img src="<?php echo $billede_url; ?>" alt="<?php echo $billede_alt; ?>" class="mb-4 rounded-xl">
         <?php 
             endforeach; 
         endif; 
@@ -114,7 +114,7 @@ Template part for projekter
     </div>
 
    
-    </div>
+    </article>
       <?php endwhile; endif; wp_reset_postdata(); ?>
 
 
