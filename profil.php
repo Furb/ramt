@@ -11,7 +11,7 @@ Template Name: Profil
 <?php get_template_part('components/profil-dots') ?>
 
 
-<div id="hero" class="bg-dark bg-[url(/wp-content/uploads/2025/03/mapramtstill.jpg)] bg-no-repeat bg-cover bg-center pt-72 pb-[5%] text-white h-[90svh]]">
+<div id="hero" class="bg-[url(https://ramt.dk/wp-content/uploads/2025/03/mapramtstill.jpg)] bg-no-repeat bg-cover bg-center pt-72 pb-[5%] text-white h-[90svh]">
     <div class="md:grid grid-cols-3 container mx-auto">
     <h2 class="col-span-full md:col-span-2 z-40">Tegnestue I tætte samarbejder med specialiserede faggrupper der  tilbyder 
 rådgivning i alle byggeriets faser. </h2>
@@ -72,7 +72,7 @@ rådgivning i alle byggeriets faser. </h2>
             <small class="block"><a href="mailto:anna@ramt.dk">anna@ramt.dk</a></small>
         </div>
         <div class="col-span-full md:col-span-4 md:-mt-48">
-            <img src="/wp-content/uploads/2025/03/billede_paa_vej.jpg" alt="medarbejder" class="rounded-xl mb-4">
+            <img src="/wp-content/uploads/2025/03/celina.jpg" alt="medarbejder" class="rounded-xl mb-4">
             <p class="label">Celina Alison Aballe Nielsen</p>
             <small class="block">Bygningskonstruktør MAK</small>
             <small class="block"><a href="mailto:celina@ramt.dk">celina@ramt.dk</a></small>
