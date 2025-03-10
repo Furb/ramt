@@ -11,7 +11,7 @@ Template Name: Profil
 <?php get_template_part('components/profil-dots') ?>
 
 
-<div id="hero" class="bg-[url(http://ramt.dk/wp-content/uploads/2025/03/mapramtstill.jpg)] bg-no-repeat bg-cover bg-center pt-72 pb-[5%] text-white h-[90svh]">
+<div id="hero" class="bg-[url(/wp-content/uploads/2025/03/mapramtstill.jpg)] bg-no-repeat bg-cover bg-center pt-72 pb-[5%] text-white h-[90svh]">
     <div class="md:grid grid-cols-3 container mx-auto">
     <h2 class="col-span-full md:col-span-2 z-40">Tegnestue I tætte samarbejder med specialiserede faggrupper der  tilbyder 
 rådgivning i alle byggeriets faser. </h2>
