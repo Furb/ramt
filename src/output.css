@@ -793,6 +793,9 @@
   .bg-\[url\(\'\.\/assets\/ramt_footer_mark\.svg\'\)\] {
     background-image: url('./assets/ramt_footer_mark.svg');
   }
+  .bg-\[url\(\/wp-content\/uploads\/2025\/03\/mapramtstill\.jpg\)\] {
+    background-image: url(/wp-content/uploads/2025/03/mapramtstill.jpg);
+  }
   .bg-\[url\(http\:\/\/ramt\.dk\/wp-content\/uploads\/2025\/03\/mapramtstill\.jpg\)\] {
     background-image: url(http://ramt.dk/wp-content/uploads/2025/03/mapramtstill.jpg);
   }
