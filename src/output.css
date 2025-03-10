@@ -844,6 +844,15 @@
   .pt-\[25\%\] {
     padding-top: 25%;
   }
+  .pt-\[90px\] {
+    padding-top: 90px;
+  }
+  .pt-\[92px\] {
+    padding-top: 92px;
+  }
+  .pt-\[93px\] {
+    padding-top: 93px;
+  }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
   }
