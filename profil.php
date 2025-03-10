@@ -11,23 +11,23 @@ Template Name: Profil
 <?php get_template_part('components/profil-dots') ?>
 
 
-<div id="hero" class="bg-dark pt-72 pb-[5%] text-white">
+<div id="hero" class="bg-[url(http://ramt.dk/wp-content/uploads/2025/03/mapramtstill.jpg)] bg-no-repeat bg-cover bg-center pt-72 pb-[5%] text-white h-[90svh]">
     <div class="md:grid grid-cols-3 container mx-auto">
     <h2 class="col-span-full md:col-span-2 z-40">Tegnestue I tætte samarbejder med specialiserede faggrupper der  tilbyder 
 rådgivning i alle byggeriets faser. </h2>
-    <div class="hidden md:flex justify-end hero__logo col-span-full md:col-span-2 md:col-start-2 "><img src="/wp-content/uploads/2025/02/logo_green.svg" alt="Tegnestuen ramt logo" class="max-w-[38rem]"></div>
+    <div class="hidden justify-end hero__logo col-span-full md:col-span-2 md:col-start-2 "><img src="/wp-content/uploads/2025/02/logo_green.svg" alt="Tegnestuen ramt logo" class="max-w-[38rem]"></div>
 </div>
 </div>
 
 <?php get_template_part('template-parts/projekter'); ?>
 
-<section id="profil" class="py-24 md:pb-48 relative">
+<section id="profil" class="py-24 relative">
     <div class="grid grid-cols-12 container">
         
         <div id="left__side" class="col-span-full md:col-start-2 md:col-span-5">
             
 
-        <div class="text__box mb-16">
+        <div class="text__box font-600 mb-16">
                 <p>Tegnestuen RAMT blev stiftet i marts 2024 af Søren Theodor Vedsted, stifter og indehaver, som har en årelang erfaring erfaring fra arkitektbranchen.</p>
             </div>
           

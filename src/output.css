@@ -669,6 +669,12 @@
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
+  .h-\[90svh\] {
+    height: 90svh;
+  }
+  .h-screen {
+    height: 100vh;
+  }
   .min-h-\[2\.5rem\] {
     min-height: 2.5rem;
   }
@@ -695,9 +701,6 @@
   }
   .columns-1 {
     columns: 1;
-  }
-  .break-inside-avoid {
-    break-inside: avoid;
   }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -775,6 +778,9 @@
   .border-softGrey {
     border-color: var(--color-softGrey);
   }
+  .bg-\[http\:\/\/ramt\.dk\/wp-content\/uploads\/2025\/03\/mapramtstill\.jpg\] {
+    background-color: //ramt.dk/wp-content/uploads/2025/03/mapramtstill.jpg;
+  }
   .bg-dark {
     background-color: var(--color-dark);
   }
@@ -787,8 +793,17 @@
   .bg-\[url\(\'\.\/assets\/ramt_footer_mark\.svg\'\)\] {
     background-image: url('./assets/ramt_footer_mark.svg');
   }
+  .bg-\[url\(http\:\/\/ramt\.dk\/wp-content\/uploads\/2025\/03\/mapramtstill\.jpg\)\] {
+    background-image: url(http://ramt.dk/wp-content/uploads/2025/03/mapramtstill.jpg);
+  }
   .bg-cover {
     background-size: cover;
+  }
+  .bg-bottom {
+    background-position: bottom;
+  }
+  .bg-center {
+    background-position: center;
   }
   .bg-top {
     background-position: top;
@@ -978,14 +993,14 @@
       display: grid;
     }
   }
-  .md\:py-24 {
+  .md\:pt-24 {
     @media (width >= 48rem) {
-      padding-block: calc(var(--spacing) * 24);
+      padding-top: calc(var(--spacing) * 24);
     }
   }
-  .md\:pb-48 {
+  .md\:pb-8 {
     @media (width >= 48rem) {
-      padding-bottom: calc(var(--spacing) * 48);
+      padding-bottom: calc(var(--spacing) * 8);
     }
   }
   .xl\:col-start-8 {

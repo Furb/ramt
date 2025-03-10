@@ -8,7 +8,7 @@ Template part for projekter
 
 
 
-<section id="projekter" class="py-8 md:py-24 scroll-mt-12 px-8">
+<section id="projekter" class="py-8 md:pt-24 md:pb-8 scroll-mt-12 px-8">
     <div class="container">
     <h2>Projekter</h2>
 
@@ -120,5 +120,6 @@ Template part for projekter
 
 
 </div>
+    </div>
 
 </section>

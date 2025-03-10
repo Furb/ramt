@@ -1,14 +1,14 @@
 <!-- Upper Section -->
-<div class="absolute top-1/4 left-1/2 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
+<div class="hidden absolute top-1/4 left-1/2 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
   <div class="w-4 h-4 bg-secondary rounded-full"></div>
 </div>
-<div class="absolute top-96 right-1/3 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
+<div class="hidden absolute top-96 right-1/3 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
   <div class="w-4 h-4 bg-secondary rounded-full"></div>
 </div>
-<div class="absolute top-32 left-1/3 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
+<div class="hidden absolute top-32 left-1/3 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
   <div class="w-4 h-4 bg-secondary rounded-full"></div>
 </div>
-<div class="absolute top-44 right-1/6 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
+<div class="hidden absolute top-44 right-1/6 flex items-center justify-center w-8 h-8 rounded-full border-4 border-secondary">
   <div class="w-4 h-4 bg-secondary rounded-full"></div>
 </div>
 
